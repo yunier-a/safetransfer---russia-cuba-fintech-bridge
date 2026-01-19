@@ -1,0 +1,9 @@
+{
+  "name": "SafeTransfer - Russia-Cuba Fintech Bridge",
+  "description": "Una pasarela financiera segura y ultrarrápida entre Rusia y Cuba, con intercambio de divisas, remesas, soporte por voz impulsado por Gemini 2.5 y cajas fuertes de seguridad.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera",
+    "microphone"
+  ]
+}

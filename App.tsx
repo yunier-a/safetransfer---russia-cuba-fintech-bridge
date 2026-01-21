@@ -18,6 +18,8 @@ import WalletDetail from './pages/WalletDetail';
 import Recharge from './pages/Recharge';
 import Beneficiaries from './pages/Beneficiaries';
 import AdminNode from './pages/AdminNode';
+import GatewayCheckout from './pages/GatewayCheckout';
+import Notifications from './pages/Notifications';
 
 const App: React.FC = () => {
   return (
@@ -40,6 +42,8 @@ const App: React.FC = () => {
         <Route path="/recharge" element={<Recharge />} />
         <Route path="/beneficiaries" element={<Beneficiaries />} />
         <Route path="/admin-node" element={<AdminNode />} />
+        <Route path="/gateway-checkout" element={<GatewayCheckout />} />
+        <Route path="/notifications" element={<Notifications />} />
       </Routes>
     </HashRouter>
   );

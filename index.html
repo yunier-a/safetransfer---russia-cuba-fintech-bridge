@@ -5,6 +5,9 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>SafeTransfer - Russia-Cuba Fintech Bridge</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23136dec'%3E%3Cpath d='M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.5h-1v4l-3-4h2v-4l3 4h-1z'/%3E%3C/svg%3E">
+    
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
@@ -68,7 +71,7 @@
     "react/": "https://esm.sh/react@^19.2.3/",
     "react": "https://esm.sh/react@^19.2.3",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "@google/generative-ai": "https://esm.sh/@google/generative-ai@^0.21.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
     "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0",
     "jsqr": "https://esm.sh/jsqr@1.4.0",
     "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.48.1"
@@ -79,6 +82,7 @@
 </head>
 <body class="bg-background-dark text-white antialiased selection:bg-primary/30 overflow-hidden">
     <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
 <script type="module" src="/index.tsx"></script>
 </body>
 </html>

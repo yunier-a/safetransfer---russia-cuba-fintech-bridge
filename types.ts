@@ -17,6 +17,26 @@ export interface Wallet {
   icon: string;
 }
 
+export interface AppNotification {
+  id: string;
+  title: string;
+  message: string;
+  type: 'DEPOSIT' | 'TRANSFER' | 'RECHARGE' | 'SYSTEM';
+  status: 'INFO' | 'SUCCESS' | 'WARNING';
+  timestamp: string;
+  read: boolean;
+}
+
+export interface BankCard {
+  id: string;
+  holder_name: string;
+  last4: string;
+  brand: string; // 'VISA', 'MASTERCARD', 'MIR'
+  exp_month: string;
+  exp_year: string;
+  color: string;
+}
+
 export interface Transaction {
   id: string;
   recipient: string;
@@ -31,6 +51,8 @@ export interface Transaction {
   account?: string;
   network?: string;
   hash?: string;
+  created_at?: string;
+  node_id?: string;
 }
 
 export interface Reward {
